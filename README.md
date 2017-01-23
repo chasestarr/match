@@ -23,6 +23,6 @@ func main() {
 	a := []Person{alex, bradley}
 	b := []Person{christina, dolores}
 
-	matches := GaleShapley(a, b)
+	matches := match.GaleShapley(a, b)
 	fmt.Println(matches) // "Alex" --> "Dolores", "Bradley" --> "Christina"
 }
