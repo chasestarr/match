@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-  alex := Person{name: "Alex"}
+	alex := Person{name: "Bradley"}
 	bradley := Person{name: "Bradley"}
 	christina := Person{name: "Christina"}
 	dolores := Person{name: "Dolores"}
