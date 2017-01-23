@@ -10,10 +10,10 @@ import (
 )
 
 func main() {
-	alex := Person{name: "Bradley"}
-	bradley := Person{name: "Bradley"}
-	christina := Person{name: "Christina"}
-	dolores := Person{name: "Dolores"}
+	alex := match.Person{name: "Bradley"}
+	bradley := match.Person{name: "Bradley"}
+	christina := match.Person{name: "Christina"}
+	dolores := match.Person{name: "Dolores"}
 
 	alex.candidates = []string{"Dolores", "Bradley"}
 	bradley.candidates = []string{"Christina", "Dorlores"}
